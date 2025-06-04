@@ -18,7 +18,7 @@ spec:
     spec:
       project: default
       sources:
-        - repoURL: https://github.com/<repo>
+        - repoURL: https://github.com/wouary/argocd-applications
           targetRevision: main
           path: 'kustomize/env/overlays/{{.environment}}'
       destination:
